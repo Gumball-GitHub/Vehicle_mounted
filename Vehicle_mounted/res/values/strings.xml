@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车载健康小助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tts">TtsActivity</string>
+    <string name="title_activity_health_indicator">Health_indicatorActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="hi_weight">体重</string>
+    <string name="hi_temperature">体温</string>
+    <string name="hi_heart_rate">心率</string>
+    <string name="hi_blood_pressure">血压</string>
+    <string name="hi_blood_fat">血脂</string>
+    <string name="navigation_shouye">首页</string>
+    <string name="navigation_tubiao">实时数据</string>
+    <string name="navigation_lishi">历史记录</string>
+    <string name="navigation_geren">个人中心</string>
+    <string name="llsy_btn">语音播报</string>
+    <string name="app_version">版本号：czjkxzs_1.1.0.180629.apk</string>
+    <string name="llgr_btn1">修改信息</string>
+    <string name="llgr_edname">在此处修改用户名</string>
+    <string name="llgr_edhei">在此处修改身高</string>
+    <string name="llgr_edpho">在此处修改紧急电话</string>
+    <string name="main_login">点击进入</string>
+    <string name="llsy_btn2">紧急呼救</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login" >
+    
+    <TextView 
+        android:id="@+id/main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="车载健康\n小助手"
+        android:layout_marginTop="60dp"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textColor="#0099cc"/>
+    
+    <Button 
+        android:id="@+id/main_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_login"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="#AA0099cc"/>
+    
+    <TextView
+        android:id="@+id/main_version"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/app_version"
+        android:gravity="left|bottom"
+        android:textColor="#ffffff"/>
+    
+
+</LinearLayout>

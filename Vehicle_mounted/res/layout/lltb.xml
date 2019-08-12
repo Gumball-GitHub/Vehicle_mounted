@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/lltb_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <!-- 平均值 -->
+
+    <RelativeLayout
+        android:id="@+id/heartBeatView_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <!-- 平均值 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="平均值"
+                android:textColor="#919191"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38"
+                android:textColor="#A4D3EE"
+                android:textSize="60dp" 
+                android:id="@+id/heartBeatViewAvgV"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第三周"
+            android:textSize="30dp" android:id="@+id/heartBeatView_week" android:layout_centerInParent="true" android:layout_marginTop="5dp"/>
+        <!-- 最大最小值 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="30"
+                    android:textColor="#A4D3EE"
+                    android:textSize="40dp" 
+                    android:id="@+id/heartBeatViewMinV"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="最小值"
+                    android:textColor="#919191"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="45"
+                    android:textColor="#A4D3EE"
+                    android:textSize="40dp" 
+                    android:id="@+id/heartBeatViewMaxV"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="最大值"
+                    android:textColor="#919191"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 心率 -->
+
+    <LinearLayout
+        android:id="@+id/heartBeatView_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/heartBeatView_center"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/heartBeatChart_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

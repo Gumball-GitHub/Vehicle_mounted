@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/llgr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+    
+    <TextView 
+        android:id="@+id/llgr_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+    
+    <TextView 
+        android:id="@+id/llgr_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+    
+    <TextView 
+        android:id="@+id/llgr_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_version"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+    
+    <Button 
+        android:id="@+id/llgr_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/llgr_btn1"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/check_border"/>
+    
+    <EditText 
+        android:id="@+id/llgr_edname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/llgr_edname"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+    
+    <EditText 
+        android:id="@+id/llgr_edhei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/llgr_edhei"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+    
+    <EditText 
+        android:id="@+id/llgr_edpho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/llgr_edpho"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"/>
+
+</LinearLayout>
